@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio1</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 800px;
+      height: 150px;
+      border: 2px solid black;
+    }
+    .square {
+      width: 150px;
+      height: 150px;
+      margin: 0;
+      box-sizing: content-box;
+      text-align: center;
+      line-height: 150px;
+    }
+    .square:nth-child(1) {
+      background-color: red;
+    }
+    .square:nth-child(2) {
+      background-color: blue;
+    }
+    .square:nth-child(3) {
+      background-color: green;
+    }
+    .number {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="square">
+      <div class="number">1</div>
+    </div>
+    <div class="square">
+      <div class="number">2</div>
+    </div>
+    <div class="square">
+      <div class="number">3</div>
+    </div>
+  </div>
+</body>
+</html>
